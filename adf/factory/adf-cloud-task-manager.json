@@ -1,0 +1,9 @@
+{
+	"name": "adf-cloud-task-manager",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "637c5e39-3d81-4326-afa0-31d791fea1c0",
+		"tenantId": "e4cd840e-8162-4085-b0a0-0c9e7234cce1"
+	}
+}
