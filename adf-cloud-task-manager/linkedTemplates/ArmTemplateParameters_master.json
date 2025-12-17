@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-cloud-task-manager"
+		},
+		"ls_azure_sql_password": {
+			"value": ""
+		},
+		"ls_blob_storage_connectionString": {
+			"value": ""
+		},
+		"ls_azure_sql_properties_typeProperties_server": {
+			"value": "ctm-sql-server-yusuf.database.windows.net"
+		},
+		"ls_azure_sql_properties_typeProperties_database": {
+			"value": "task_events_db"
+		},
+		"ls_azure_sql_properties_typeProperties_userName": {
+			"value": "sqladmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
