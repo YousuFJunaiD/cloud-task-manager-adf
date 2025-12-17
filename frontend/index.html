@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cloud Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Cloud Task Manager</h1>
+
+    <div class="task-form">
+        <input id="title" type="text" placeholder="Task Title">
+        <input id="description" type="text" placeholder="Task Description">
+        <button onclick="createTask()">Add Task</button>
+    </div>
+
+    <h2>Your Tasks</h2>
+    <table id="taskTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Completed</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+<script src="script.js"></script>
+<script src="frontend/script.js"></script>
+</body>
+</html>

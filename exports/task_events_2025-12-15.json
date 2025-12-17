@@ -1,0 +1,26 @@
+[
+  {
+    "event_id": 1,
+    "task_id": 1,
+    "event_type": "task_created",
+    "event_time": "2025-12-15T15:27:35.491Z"
+  },
+  {
+    "event_id": 2,
+    "task_id": 1,
+    "event_type": "task_completed",
+    "event_time": "2025-12-15T15:27:36.631Z"
+  },
+  {
+    "event_id": 3,
+    "task_id": 1,
+    "event_type": "task_reopened",
+    "event_time": "2025-12-15T15:27:37.336Z"
+  },
+  {
+    "event_id": 4,
+    "task_id": 1,
+    "event_type": "task_deleted",
+    "event_time": "2025-12-15T15:27:38.069Z"
+  }
+]
